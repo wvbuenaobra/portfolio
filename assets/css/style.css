@@ -1,0 +1,104 @@
+/*css reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*css declarations*/
+body {
+	background-image: url(../images/bg.jpeg);
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	color: #f2f2f2; /*off white*/
+	height: 100vh;
+	font-family: 'Noto Sans', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+.container {
+	max-width: 960px; /*so that the layout wont expand extensively in very wide displays*/
+	margin: 0 auto;
+}
+
+.main {
+	min-height: 550px;
+}
+
+[class*="col-"] {
+	border: 5px solid transparent;
+	/*border: 2px solid black;*/
+	float: left;
+}
+
+.header {
+	height: 150px;
+	text-align: right;
+	position: relative;
+}
+
+.navheader {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#myemail {
+	color: black;
+}
+
+#phoneicon {
+	height: 15px;
+	width: 15px;
+}
+
+#navtext {
+	color: black;
+}
+
+.navbtn {
+	width: 130px;
+}
+
+.hello {
+	color: black;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.who {
+	color: black;
+	font-size: 4.242rem;
+	font-weight: bold;
+}
+
+.what {
+	color: black;
+	font-size: 2.8em;
+}
+
+#phflag {
+	height: 25px;
+	width: 50px;
+}
+
+#me {
+	height: 200px;
+	width: 215px;
+	border-radius: 50%; /*makes the photo round*/
+	/*border-width: 5px;*/
+	/*border-style: solid;*/
+	/*border-color: steelblue;*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#logo {
+	height: 50px;
+	width: 50px;
+	margin: 3px;
+}
