@@ -14,10 +14,15 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-repeat: no-repeat;
-	color: #f2f2f2; /*off white*/
+	/*color: #f2f2f2;*/ /*off white*/
+	color: black;
 	height: 100vh;
 	font-family: 'Noto Sans', sans-serif;
 	/*font-family: 'Roboto', sans-serif;*/
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 .container {
@@ -27,6 +32,7 @@ body {
 
 .main {
 	min-height: 550px;
+	/*border: 2px solid black;*/
 }
 
 [class*="col-"] {
@@ -47,52 +53,32 @@ body {
 	right: 0;
 }
 
-#myemail {
-	color: black;
-}
-
-#phoneicon {
-	height: 15px;
-	width: 15px;
-}
-
-#navtext {
-	color: black;
-}
-
 .navbtn {
 	width: 130px;
 }
 
 .hello {
-	color: black;
 	font-size: 4rem;
 	font-weight: bold;
 }
 
 .who {
-	color: black;
 	font-size: 4.242rem;
 	font-weight: bold;
 }
 
 .what {
-	color: black;
 	font-size: 2.8em;
 }
 
 #phflag {
-	height: 25px;
-	width: 50px;
+	height: 35px;
 }
 
 #me {
 	height: 200px;
 	width: 215px;
 	border-radius: 50%; /*makes the photo round*/
-	/*border-width: 5px;*/
-	/*border-style: solid;*/
-	/*border-color: steelblue;*/
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -101,4 +87,43 @@ body {
 	height: 50px;
 	width: 50px;
 	margin: 3px;
+}
+
+.pf-holder {
+	border: 4px solid black;
+	min-height: 350px;
+	border-radius: 5px;
+}
+
+.pf-img {
+	height: 200px;
+	border: 1px solid black;
+}
+
+.pf-title {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.pf-desc {
+	font-size: 0.8rem;
+}
+
+.down {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(97,203,217, 1);
+	padding: 10px 50px;
+	border-radius: 10px;
+
+	text-decoration: none;
+	color: #333;
+}
+
+.down a {
+	text-decoration: none;
+	color: #333;
 }
