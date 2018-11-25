@@ -7,13 +7,13 @@
 
 /*css declarations*/
 body {
-	background-image: url(../images/bg.jpeg);
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-repeat: no-repeat;
+	/*background-image: url(../images/bg.jpeg);*/
+	/*background-position: center center;*/
+	/*background-size: cover;*/
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-repeat: no-repeat;*/
 	/*color: #f2f2f2;*/ /*off white*/
 	color: black;
 	height: 100vh;
@@ -31,8 +31,14 @@ html {
 }
 
 .main {
-	min-height: 550px;
+	/*min-height: 550px;*/
+	/*min-height: 400px;*/
+	min-height: 70vh;
 	/*border: 2px solid black;*/
+}
+
+.main-2 {
+	min-height: 40vh;
 }
 
 [class*="col-"] {
@@ -90,14 +96,14 @@ html {
 }
 
 .pf-holder {
-	border: 4px solid black;
-	min-height: 350px;
-	border-radius: 5px;
+	/*border: 4px solid black;*/
+	min-height: 300px;
+	/*border-radius: 5px;*/
 }
 
 .pf-img {
-	height: 200px;
-	border: 1px solid black;
+	height: 230px;
+	/*border: 1px solid black;*/
 }
 
 .pf-title {
@@ -126,4 +132,63 @@ html {
 .down a {
 	text-decoration: none;
 	color: #333;
+}
+
+.td-none {
+	text-decoration: none;
+	color: black;
+}
+
+/*MEDIA QUERIES*/
+/* Mobile */
+@media only screen and (max-width: 400px) {
+	body {
+		color: #333;
+	}
+
+	.header, .space {
+		display: none;
+	}
+
+	.hello {
+		padding-top: 1em;
+		font-size: 3rem;
+	}
+
+	.who {
+		font-size: 3.242rem;
+	}
+
+	.what {
+		font-size: 2em;
+	}
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body {
+		color: #333;
+	}
+
+	.header, .space {
+		display: none;
+	}
+
+	.hello {
+		padding-top: 1em;
+		font-size: 3rem;
+	}
+
+	.who {
+		font-size: 3.242rem;
+	}
+
+	.what {
+		font-size: 2em;
+	}
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+
 }

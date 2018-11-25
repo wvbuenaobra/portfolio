@@ -42,7 +42,6 @@
 					<p>
 						<a class="btn btn-outline-secondary navbtn" href="#id-portfolio" role="button">PORTFOLIO</a>
 						<a class="btn btn-outline-secondary navbtn" href="#id-about" role="button">ABOUT</a>
-						<!-- <button type="button" class="btn btn-outline-secondary navbtn">CONTACT</button> -->
 					</p>
 					
 				</nav>
@@ -59,7 +58,11 @@
 					<h1 class="hello">Hello!</h1>
 					<h2 class="who">I'm Wilson.</h2>
 					<h3 class="what">I'm a full-stack web developer</h3>
-					<h3 class="what">living in the <img id="phflag" src="assets/images/phflag.gif" alt="Philippine Flag" title="Philippines :)"></h3>
+					<h3 class="what">living in the 
+						<a href="https://en.wikipedia.org/wiki/Philippines" title="Philippines - Wikipedia.org" target="_blank">
+							<img id="phflag" src="assets/images/phflag.gif" alt="Philippine Flag">
+						</a>
+					</h3>
 				</div>
 			</div>
 			<!-- Left Side -->
@@ -93,7 +96,7 @@
 					<!-- (Seems legit...) -->
 					<!-- &nbsp;<i class="fas fa-chevron-down"></i>
 				</div>
-			</a>	 -->
+			</a> -->
 			<!-- Go to portfolio -->
 
 		</div>
@@ -109,17 +112,17 @@
 		<!-- start main -->
 		<div class="row main">
 
-			<div class="col-lg-12 p-4"></div>
+			<div class="space col-lg-12 p-3"></div>
 
 			<div class="col-lg-12">
 				<div>
-					<h3 class="what" id="id-portfolio">Portfolio</h3>
+					<h3 class="what pb-3" id="id-portfolio">Portfolio</h3>
 				</div>
 			</div>
 
 			<!-- PORT 1 -->
 			<div class="col-lg-6">
-				<div class="pf-holder m-4 p-2">
+				<div class="pf-holder mb-4">
 
 					<a href="https://wvbuenaobra.github.io/radwellness" target="_blank">
 						<img class="pf-img w-100" src="assets/images/rad-wellness-screenshot.jpg" alt="Portfolio 1" title="RAD Wellness">
@@ -127,8 +130,7 @@
 					
 					<div class="pf-title py-1">RAD Wellness</div>
 
-					<div class="pf-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</div>
+					<div class="pf-desc mb-1">A static website that contains company info, ways to contact, programs offerred, client testimonials, and gallery.<!--  RAD Wellness is an organization that gives mental health seminars and counseling and is based in Makati. --></div>
 
 					<div class="text-right">
 						<span class="badge badge-secondary">HTML</span>
@@ -141,16 +143,13 @@
 
 			<!-- PORT 2 -->
 			<div class="col-lg-6">
-				<div class="pf-holder m-4 p-2">
+				<div class="pf-holder mb-3">
 
 					<img class="pf-img w-100" src="assets/images/coming-soon.jpg" alt="Portfolio 2" title="Capstone 2">
 					
 					<div class="pf-title py-1">Capstone 2</div>
 
-					<div class="pf-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</div>
+					<div class="pf-desc">Coming soon!</div>
 				</div>
 			</div>
 			<!-- PORT 2 -->
@@ -158,16 +157,13 @@
 			<!-- PORT 3 -->
 			<div class="col-lg-3"></div>
 			<div class="col-lg-6">
-				<div class="pf-holder m-4 p-2">
+				<div class="pf-holder">
 
 					<img class="pf-img w-100" src="assets/images/coming-soon.jpg" alt="Portfolio 3" title="Capstone 3">
 					
 					<p class="pf-title">Capstone 3</p>
 
-					<p class="pf-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p class="pf-desc">Coming soon!</p>
 				</div>
 			</div>
 			<div class="col-lg-3"></div>
@@ -185,9 +181,7 @@
 	<div class="container">
 
 		<!-- start main -->
-		<div class="row main">
-
-			<!-- <div class="col-lg-12 p-4"></div> -->
+		<div class="row main-2">
 
 			<div class="col-lg-12 mt-3">
 				<div>
@@ -195,42 +189,86 @@
 				</div>
 			</div>
 
-			<!-- PORT 1 -->
-			<div class="col-lg-6">
+			<!-- left side -->
+			<div class="col-lg-12">
 				<div>
-					<p>Wilson V. Buenaobra</p>
-					<p>Front-end Web Developer</p>
-					<p><a href="mailto:wilsonvbuenaobra@gmail.com">wilsonvbuenaobra@gmail.com</a></p>
-					<p><i class="fas fa-mobile-alt"></i> +63 917 509 6519</p>
 					<p>
+						<strong>Wilson V. Buenaobra</strong>
+						<span class="d-block">Full-stack Web Developer</span>
+					</p>
+					<!-- <p>Full-stack Web Developer</p> -->
+
+					<p class="pt-2">
+						<strong>Skill Set:</strong>
+						<span class="d-block">
+							HTML5 | CSS3 | JavaScript | JQuery | PHP | MySQL
+						</span>
+						<span class="d-block">
+							Bootstrap | Laravel
+						</span>
+						<span class="d-block">
+							Github | Gitlab | Sublime Text
+						</span>
+					</p>	
+
+					<p class="pt-2">
+						<em>It'd be great to hear from you!</em>
+						<span class="pt-2 d-block"><i class="far fa-envelope"></i> wilsonvbuenaobra@gmail.com</span>
+						<span class="d-block"><i class="fas fa-mobile-alt"></i> +63 917 509 6519</span>
+					</p>
+
+					<!-- <p><i class="far fa-envelope"></i> <a href="mailto:wilsonvbuenaobra@gmail.com">wilsonvbuenaobra@gmail.com</a></p>
+					<p><i class="fas fa-mobile-alt"></i> +63 917 509 6519</p> -->
+
+					<!-- <p>
 						<img id="logo" src="assets/images/github.png">
 						<img id="logo" src="assets/images/gitlab.png">
+					</p> -->
+
+					<p class="pt-3">
+						<span class="pr-3">
+							<a class="td-none" href="https://github.com/wvbuenaobra" title="Find me on Github" target="_blank">
+								<i class="fab fa-github fa-2x"></i>
+							</a>
+						</span>
+						<a class="td-none" href="https://gitlab.com/wvbuenaobra" title="Find me on Gitlab" target="_blank">
+							<i class="fab fa-gitlab fa-2x"></i>
+						</a>
 					</p>
 					
-					
-					
-
-					
 				</div>
 			</div>
-			<!-- PORT 1 -->
+			<!-- left side -->
 
-			<!-- PORT 2 -->
-			<div class="col-lg-6">
+			<!-- right side -->
+			<!-- <div class="col-lg-6">
 				<div>
+					<p>
+						<strong>Skill Set:</strong>
+						<span class="d-block pl-4">HTML5</span>
+						<span class="d-block pl-4">CSS3</span>
+						<span class="d-block pl-4">JavaScript</span>
+						<span class="d-block pl-4">JQuery</span>
+						<span class="d-block pl-4">PHP</span>
+						<span class="d-block pl-4 pb-2">MySQL</span>
 
-					<p>Skillset, Frameworks, Tools</p>
+						<span class="d-block pl-4">Bootstrap</span>
+						<span class="d-block pl-4 pb-2">Laravel</span>
 
-					<p>Education, Prev Exp</p>
+						<span class="d-block pl-4">Github</span>
+						<span class="d-block pl-4">Gitlab</span>
+						<span class="d-block pl-4">Sublime Text</span>
+					</p>
+
+					<p>Education?</p>
 				</div>
-			</div>
-			<!-- PORT 2 -->
+			</div> -->
+			<!-- right side -->
 
 		</div>
 		<!-- end main -->
 	</div>
 	</div> <!-- end container 3 -->
-
 
 
 
