@@ -162,6 +162,10 @@ html {
 	.what {
 		font-size: 2em;
 	}
+
+	.pf-img {
+		height: 180px;
+	}
 }
 
 /* Tablet */
@@ -185,6 +189,10 @@ html {
 
 	.what {
 		font-size: 2em;
+	}
+
+	.pf-img {
+		height: 180px;
 	}
 }
 
