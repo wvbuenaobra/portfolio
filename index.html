@@ -13,15 +13,22 @@
 	<!-- animate.css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
-	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+	<!-- bootstrap script dependencies -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
 	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
 
 	<!-- fav icon -->
 	<link rel="icon" type="image/gif/png" href="assets/images/letterw.jpg">
@@ -60,7 +67,7 @@
 					<h3 class="what">I'm a full-stack web developer</h3>
 					<h3 class="what">living in the 
 						<a href="https://en.wikipedia.org/wiki/Philippines" title="Philippines - Wikipedia.org" target="_blank">
-							<img id="phflag" src="assets/images/phflag.gif" alt="Philippine Flag">
+							<img id="phflag" src="assets/images/phflag.png" alt="Philippine Flag">
 						</a>
 					</h3>
 				</div>
@@ -83,6 +90,13 @@
 					<p>
 						<img id="logo" src="assets/images/php.png" alt="PHP" title="PHP">
 						<img id="logo" src="assets/images/mysql.png" alt="MySQL" title="MySQL">
+						<img id="logo" src="assets/images/cli.png" alt="CLI" title="CLI">
+						
+					</p>
+
+					<p>
+						<img id="logo" src="assets/images/laravel.png" alt="Laravel" title="Laravel">
+						<img id="logo" src="assets/images/jquery.png" alt="jQuery" title="jQuery">
 					</p>
 
 				</div>
@@ -125,12 +139,12 @@
 				<div class="pf-holder mb-4">
 
 					<a href="https://wvbuenaobra.github.io/radwellness" target="_blank">
-						<img class="pf-img w-100" src="assets/images/rad-wellness-screenshot.jpg" alt="Portfolio 1" title="RAD Wellness">
+						<img class="pf-img w-100" src="assets/images/rad-wellness-screenshot.jpg" alt="RAD Wellness" title="RAD Wellness">
 					</a>
 					
-					<div class="pf-title py-1">RAD Wellness</div>
+					<div class="pf-title py-2">RAD Wellness</div>
 
-					<div class="pf-desc mb-1">A static website that contains company info, ways to contact, programs offerred, client testimonials, and gallery.<!--  RAD Wellness is an organization that gives mental health seminars and counseling and is based in Makati. --></div>
+					<div class="pf-desc mb-2">A static website that contains company info, ways to contact, programs offerred, client testimonials, and gallery.<!--  RAD Wellness is an organization that gives mental health seminars and counseling and is based in Makati. --></div>
 
 					<div class="text-right">
 						<span class="badge badge-secondary">HTML</span>
@@ -143,19 +157,30 @@
 
 			<!-- PORT 2 -->
 			<div class="col-lg-6">
-				<div class="pf-holder mb-3">
+				<div class="pf-holder mb-4">
 
-					<img class="pf-img w-100" src="assets/images/coming-soon.jpg" alt="Portfolio 2" title="Capstone 2">
-					
-					<div class="pf-title py-1">Capstone 2</div>
+					<a href="https://dishonestbee.herokuapp.com/" target="_blank">
+						<img class="pf-img w-100" src="assets/images/dishonest-bee-screenshot.jpg" alt="Dishonest Bee" title="Dishonest Bee">
+					</a>
 
-					<div class="pf-desc">Coming soon!</div>
+					<div class="pf-title py-2">Dishonest Bee</div>
+
+					<div class="pf-desc mb-2">A sample ecommerce website for a food ordering service. Integrated with Paypal. Also features an admin account for data management.</div>
+
+					<div class="text-right">
+						<span class="badge badge-secondary">HTML</span>
+						<span class="badge badge-secondary">CSS</span>
+						<span class="badge badge-secondary">Bootstrap</span>
+						<span class="badge badge-secondary">jQuery</span>
+						<span class="badge badge-secondary">PHP</span>
+						<span class="badge badge-secondary">MySQL</span>
+						<span class="badge badge-secondary">MVC Framework</span>
+					</div>
 				</div>
 			</div>
 			<!-- PORT 2 -->
 
 			<!-- PORT 3 -->
-			<div class="col-lg-3"></div>
 			<div class="col-lg-6">
 				<div class="pf-holder">
 
@@ -166,8 +191,20 @@
 					<p class="pf-desc">Coming soon!</p>
 				</div>
 			</div>
-			<div class="col-lg-3"></div>
 			<!-- PORT 3 -->
+
+			<!-- PORT 4 -->
+			<div class="col-lg-6">
+				<div class="pf-holder">
+
+					<img class="pf-img w-100" src="assets/images/coming-soon.jpg" alt="Portfolio 4" title="Capstone 4">
+					
+					<p class="pf-title">Capstone 4</p>
+
+					<p class="pf-desc">Coming soon!</p>
+				</div>
+			</div>
+			<!-- PORT 4 -->
 
 		</div>
 		<!-- end main -->
@@ -201,13 +238,13 @@
 					<p class="pt-2">
 						<strong>Skill Set:</strong>
 						<span class="d-block">
-							HTML5 | CSS3 | JavaScript | JQuery | PHP | MySQL
+							HTML5 &nbsp;|&nbsp; CSS3 &nbsp;|&nbsp; JavaScript &nbsp;|&nbsp; jQuery &nbsp;|&nbsp; PHP &nbsp;|&nbsp; MySQL
 						</span>
 						<span class="d-block">
-							Bootstrap | Laravel
+							Bootstrap &nbsp;|&nbsp; Laravel
 						</span>
 						<span class="d-block">
-							Github | Gitlab | Sublime Text
+							Github &nbsp;|&nbsp; Gitlab &nbsp;|&nbsp; Sublime Text &nbsp;|&nbsp; Command Line Interface
 						</span>
 					</p>	
 
@@ -270,12 +307,5 @@
 	</div>
 	</div> <!-- end container 3 -->
 
-
-
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->	
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
