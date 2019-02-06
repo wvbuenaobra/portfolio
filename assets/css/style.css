@@ -206,6 +206,10 @@ html {
 	.pf-img {
 		height: 180px;
 	}
+
+	#id-portfolio {
+		padding-top: 40px;
+	}
 }
 
 /* Desktop */
