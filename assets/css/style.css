@@ -170,6 +170,14 @@ html {
 	.pf-img {
 		height: 180px;
 	}
+
+	#id-portfolio {
+		padding-top: 20px;
+	}
+
+	.pf-title {
+		font-weight: bold;
+	}
 }
 
 /* Tablet */
