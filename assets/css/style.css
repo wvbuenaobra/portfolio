@@ -21,10 +21,6 @@ html {
 	margin: 0 auto;
 }
 
-.main {
-	min-height: 70vh;
-}
-
 [class*="col-"] {
 	border: 5px solid transparent;
 	float: left;
@@ -173,5 +169,7 @@ html {
 
 /* Desktop */
 @media only screen and (min-width: 961px) {
-
+	.main {
+		min-height: 70vh;
+	}
 }
