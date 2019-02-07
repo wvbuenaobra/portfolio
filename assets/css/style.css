@@ -97,25 +97,6 @@ html {
 	font-size: 0.8rem;
 }
 
-.down {
-	position: absolute;
-	bottom: 0;
-	text-align: center;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(97,203,217, 1);
-	padding: 10px 50px;
-	border-radius: 10px;
-
-	text-decoration: none;
-	color: #333;
-}
-
-.down a {
-	text-decoration: none;
-	color: #333;
-}
-
 .td-none {
 	text-decoration: none;
 	color: black;
@@ -165,7 +146,7 @@ html {
 	}
 
 	.header, .space {
-		/*display: none;*/
+		display: none;
 	}
 
 	.hello {
