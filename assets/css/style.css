@@ -76,6 +76,11 @@ html {
 	margin: 3px;
 }
 
+.devicons {
+	font-size: 40px;
+	margin: 3px;
+}
+
 .pf-holder {
 	min-height: 300px;
 }
@@ -170,6 +175,6 @@ html {
 /* Desktop */
 @media only screen and (min-width: 961px) {
 	.main {
-		min-height: 70vh;
+		min-height: 75vh;
 	}
 }

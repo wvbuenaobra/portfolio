@@ -29,6 +29,9 @@
 
 	<!-- fontawesome icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- devicon -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
 
@@ -40,11 +43,11 @@
 				<nav class="navheader">
 					
 					<p>
-						<a href="mailto:wilsonvbuenaobra@gmail.com">wilsonvbuenaobra@gmail.com</a> | <i class="fas fa-mobile-alt"></i> +63 917 509 6519
+						<a href="mailto:wilsonvbuenaobra@gmail.com">wilsonvbuenaobra@gmail.com</a> &nbsp;|&nbsp; <i class="fas fa-mobile-alt"></i> +63 917 509 6519
 					</p>
 
 					<p>
-						<a class="btn btn-outline-secondary navbtn" href="#id-portfolio" role="button">PORTFOLIO</a>
+						<a class="btn btn-outline-secondary navbtn mr-1" href="#id-portfolio" role="button">PORTFOLIO</a>
 						<a class="btn btn-outline-secondary navbtn" href="#id-about" role="button">ABOUT</a>
 					</p>
 					
@@ -77,19 +80,38 @@
 
 					<img id="me" src="assets/images/wilson.png" class="animated bounceIn">
 					
-					<p>
+					<!-- <p>
 						<img id="logo" src="assets/images/HTML_Logo.png" alt="HTML5" title="HTML5">
 						<img id="logo" src="assets/images/css.png" alt="CSS" title="CSS">
 						<img id="logo" src="assets/images/js.png" alt="JS" title="JavaScript">
 						<img id="logo" src="assets/images/jquery.png" alt="jQuery" title="jQuery">
 						<img id="logo" src="assets/images/bootstrap.png" alt="Bootstrap" title="Bootstrap">
+					</p> -->
+
+					<p class="devicons">
+						<i class="devicon-html5-plain-wordmark colored" alt="HTML5" title="HTML5"></i>
+						<i class="devicon-css3-plain-wordmark colored" alt="CSS3" title="CSS3"></i>
+						<i class="devicon-javascript-plain colored" alt="JS" title="JavaScript"></i>
+						<i class="devicon-jquery-plain-wordmark colored" alt="jQuery" title="jQuery"></i>
+						<i class="devicon-bootstrap-plain-wordmark colored" alt="Bootstrap" title="Bootstrap"></i>
 					</p>
 
-					<p>
+					<!-- <p>
 						<img id="logo" src="assets/images/laravel.png" alt="Laravel" title="Laravel">
 						<img id="logo" src="assets/images/php.png" alt="PHP" title="PHP">
 						<img id="logo" src="assets/images/mysql.png" alt="MySQL" title="MySQL">
-						<!-- <img id="logo" src="assets/images/cli.png" alt="CLI" title="CLI"> -->
+					</p> -->
+					<!-- <img id="logo" src="assets/images/cli.png" alt="CLI" title="CLI"> -->
+
+					<p class="devicons">
+						<i class="devicon-laravel-plain-wordmark colored" alt="Laravel" title="Laravel"></i>
+						<i class="devicon-php-plain colored" alt="PHP" title="PHP"></i>
+						<i class="devicon-mysql-plain-wordmark colored" alt="MySQL" title="MySQL"></i>
+						<i class="devicon-mongodb-plain-wordmark colored" alt="mongoDB" title="mongoDB"></i>
+						<i class="devicon-nodejs-plain colored" alt="Node.js" title="Node.js"></i>
+						<!-- <i class="devicon-nodejs-plain-wordmark colored" alt="Node.js" title="Node.js"></i> -->
+						<i class="devicon-express-original colored" alt="Express.js" title="Express.js"></i>
+						<!-- <i class="devicon-express-original-wordmark colored" alt="Express.js" title="Express.js"></i> -->
 					</p>
 
 				</div>
@@ -128,10 +150,11 @@
 
 					<div class="pf-desc mb-3">A static website that contains company info, ways to contact, programs offerred, client testimonials, and gallery.</div>
 
-					<div class="text-right">
-						<span class="badge badge-dark">HTML</span>
-						<span class="badge badge-dark">CSS</span>
-						<span class="badge badge-dark">Bootstrap</span>
+					<div class="text-left">
+						<small class="pr-1">Tools:</small>
+						<span class="badge badge-success">HTML</span>
+						<span class="badge badge-success">CSS</span>
+						<span class="badge badge-success">Bootstrap</span>
 					</div>
 				</div>
 			</div>
@@ -148,16 +171,17 @@
 
 					<div class="pf-title py-3">Dishonest Bee</div>
 
-					<div class="pf-desc mb-3">A sample ecommerce website for a food ordering service. Integrated with Paypal. Also features an admin account for data management.</div>
+					<div class="pf-desc mb-3">A sample ecommerce website for a food ordering service. Uses AJAX, PHPMailer, and integrated with Paypal. Also features an admin account for data management.</div>
 
-					<div class="text-right">
-						<span class="badge badge-dark">HTML</span>
-						<span class="badge badge-dark">CSS</span>
-						<span class="badge badge-dark">Bootstrap</span>
-						<span class="badge badge-dark">jQuery</span>
-						<span class="badge badge-dark">PHP</span>
-						<span class="badge badge-dark">MySQL</span>
-						<span class="badge badge-dark">MVC Framework</span>
+					<div class="text-left">
+						<small class="pr-1">Tools:</small>
+						<span class="badge badge-warning">HTML</span>
+						<span class="badge badge-warning">CSS</span>
+						<span class="badge badge-warning">Bootstrap</span>
+						<span class="badge badge-warning">jQuery</span>
+						<span class="badge badge-warning">PHP</span>
+						<span class="badge badge-warning">MySQL</span>
+						<span class="badge badge-warning">MVC Framework</span>
 					</div>
 				</div>
 			</div>
@@ -176,14 +200,15 @@
 
 					<div class="pf-desc mb-3">An online platform where users can find help for small errands such as deliveries, household chores, and small office tasks. Includes an admin account for asset management.</div>
 
-					<div class="text-right">
-						<span class="badge badge-dark">HTML</span>
-						<span class="badge badge-dark">CSS</span>
-						<span class="badge badge-dark">Bootstrap</span>
-						<span class="badge badge-dark">jQuery</span>
-						<span class="badge badge-dark">PHP</span>
-						<span class="badge badge-dark">MySQL</span>
-						<span class="badge badge-dark">Laravel Framework</span>
+					<div class="text-left">
+						<small class="pr-1">Tools:</small>
+						<span class="badge badge-secondary">HTML</span>
+						<span class="badge badge-secondary">CSS</span>
+						<span class="badge badge-secondary">Bootstrap</span>
+						<span class="badge badge-secondary">jQuery</span>
+						<span class="badge badge-secondary">PHP</span>
+						<span class="badge badge-secondary">MySQL</span>
+						<span class="badge badge-secondary">Laravel</span>
 					</div>
 				</div>
 			</div>
@@ -238,24 +263,33 @@
 								<span class="px-2">JavaScript</span>&middot;
 								<span class="px-2">jQuery</span>&middot;
 								<span class="px-2">PHP</span>&middot;
-								<span class="pl-2">MySQL</span>
+								<span class="px-2">MySQL</span>&middot;
+								<span class="px-2">mongoDB</span>&middot;
+								<span class="pl-2">Node.js</span>
 							</span>
 							<span class="d-block py-2">
 								<span class="pr-2">Bootstrap</span>&middot;
-								<span class="pl-2">Laravel</span>
+								<span class="px-2">Laravel</span>&middot;
+								<span class="pl-2">Express.js</span>
 							</span>
 							<span class="d-block">
 								<span class="pr-2">Github</span>&middot;
 								<span class="px-2">Gitlab</span>&middot;
 								<span class="px-2">Sublime Text</span>&middot;
-								<span class="pl-2">Command Line Interface</span>
+								<span class="pl-2">CLI</span>
 							</span>
 						</p>	
 
 						<p class="pt-2">
+							<a href="">
+								<strong><i class="far fa-file-pdf"></i> &nbsp;Download My CV</strong>
+							</a>
+						</p>
+
+						<p class="pt-2">
 							<em>It'd be great to hear from you!</em>
-							<span class="pt-2 d-block"><i class="far fa-envelope"></i> wilsonvbuenaobra@gmail.com</span>
-							<span class="d-block"><i class="fas fa-mobile-alt"></i> +63 917 509 6519</span>
+							<span class="pt-2 d-block"><i class="far fa-envelope"></i> &nbsp;wilsonvbuenaobra@gmail.com</span>
+							<span class="d-block"><i class="fas fa-mobile-alt"></i> &nbsp;+63 917 509 6519</span>
 						</p>
 
 						<p class="pt-3">
