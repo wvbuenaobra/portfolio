@@ -8,7 +8,7 @@
 	<title>Wilson Buenaobra | Web Developer Portfolio</title>
 
 	<!-- fav icon -->
-	<link rel="icon" type="image/gif/png" href="assets/images/letterw.jpg">
+	<link rel="icon" type="image/gif/png" href="assets/images/letterw.png">
 
 	<!-- bootstrap cdn -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
@@ -18,6 +18,9 @@
 
 	<!-- animate.css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- animate on scroll -->
+	<link rel="stylesheet" type="text/css" href="assets/css/aos.css">
 
 	<!-- bootstrap script dependencies -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -143,19 +146,20 @@
 				<div class="pf-holder mb-5">
 
 					<a href="https://wvbuenaobra.github.io/radwellness" target="_blank">
-						<img class="pf-img w-100 shadow" src="assets/images/rad-wellness-screenshot.jpg" alt="RAD Wellness" title="RAD Wellness">
+						<img class="pf-img w-100 shadow" src="assets/images/rad-wellness-screenshot.jpg" alt="RAD Wellness" title="RAD Wellness" data-aos="fade-right" data-aos-once="true" data-aos-duration="1200">
 					</a>
 					
 					<div class="pf-title py-3">RAD Wellness</div>
 
 					<div class="pf-desc mb-3">A static website that contains company info, ways to contact, programs offerred, client testimonials, and gallery.</div>
 
-					<div class="text-left">
+					<div class="text-right">
 						<small class="pr-1">Tools:</small>
-						<span class="badge badge-success">HTML</span>
-						<span class="badge badge-success">CSS</span>
-						<span class="badge badge-success">Bootstrap</span>
+						<span class="badge badge-secondary">HTML</span>
+						<span class="badge badge-secondary">CSS</span>
+						<span class="badge badge-secondary">Bootstrap</span>
 					</div>
+
 				</div>
 			</div>
 			<!-- PORT 1 -->
@@ -166,23 +170,24 @@
 				<div class="pf-holder mb-5">
 
 					<a href="https://dishonestbee.herokuapp.com/" target="_blank">
-						<img class="pf-img w-100 shadow" src="assets/images/dishonest-bee-screenshot.jpg" alt="Dishonest Bee" title="Dishonest Bee">
+						<img class="pf-img w-100 shadow" src="assets/images/dishonest-bee-screenshot.jpg" alt="Dishonest Bee" title="Dishonest Bee" data-aos="fade-left" data-aos-once="true" data-aos-duration="1200">
 					</a>
 
 					<div class="pf-title py-3">Dishonest Bee</div>
 
 					<div class="pf-desc mb-3">A sample ecommerce website for a food ordering service. Uses AJAX, PHPMailer, and integrated with Paypal. Also features an admin account for data management.</div>
 
-					<div class="text-left">
+					<div class="text-right">
 						<small class="pr-1">Tools:</small>
-						<span class="badge badge-warning">HTML</span>
-						<span class="badge badge-warning">CSS</span>
-						<span class="badge badge-warning">Bootstrap</span>
-						<span class="badge badge-warning">jQuery</span>
-						<span class="badge badge-warning">PHP</span>
-						<span class="badge badge-warning">MySQL</span>
-						<span class="badge badge-warning">MVC Framework</span>
+						<span class="badge badge-secondary">HTML</span>
+						<span class="badge badge-secondary">CSS</span>
+						<span class="badge badge-secondary">Bootstrap</span>
+						<span class="badge badge-secondary">jQuery</span>
+						<span class="badge badge-secondary">PHP</span>
+						<span class="badge badge-secondary">MySQL</span>
+						<span class="badge badge-secondary">MVC Framework</span>
 					</div>
+
 				</div>
 			</div>
 			<!-- PORT 2 -->
@@ -193,14 +198,14 @@
 				<div class="pf-holder mb-5">
 
 					<a href="https://secret-taiga-66619.herokuapp.com/" target="_blank">
-						<img class="pf-img w-100 shadow" src="assets/images/elephant_task_screenshot.jpg" alt="Elephant Task" title="Elephant Task">
+						<img class="pf-img w-100 shadow" src="assets/images/elephant_task_screenshot.jpg" alt="Elephant Task" title="Elephant Task" data-aos="fade-right" data-aos-once="true" data-aos-duration="1200" id="aos-elephant">
 					</a>
 					
 					<div class="pf-title py-3">Elephant Task</div>
 
 					<div class="pf-desc mb-3">An online platform where users can find help for small errands such as deliveries, household chores, and small office tasks. Includes an admin account for asset management.</div>
 
-					<div class="text-left">
+					<div class="text-right">
 						<small class="pr-1">Tools:</small>
 						<span class="badge badge-secondary">HTML</span>
 						<span class="badge badge-secondary">CSS</span>
@@ -219,7 +224,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-6">
 				<div class="pf-holder mb-5">
 
-					<img class="pf-img w-100 shadow" src="assets/images/coming-soon.jpg" alt="Portfolio 4" title="Capstone 4">
+					<img class="pf-img w-100 shadow" src="assets/images/coming-soon.jpg" alt="Portfolio 4" title="Capstone 4" data-aos="fade-left" data-aos-once="true" data-aos-duration="1200" id="aos-cap4">
 					
 					<div class="pf-title py-3">Capstone 4</div>
 
@@ -313,5 +318,9 @@
 		</div>
 	</div> <!-- end container 3 -->
 
+	<script src="assets/js/aos.js"></script>
+  	<script>
+    	AOS.init();
+  	</script>
 </body>
 </html>

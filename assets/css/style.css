@@ -44,18 +44,16 @@ html {
 
 .hello {
 	font-size: 4rem;
-	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .who {
 	font-size: 4.242rem;
-	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .what {
-	font-size: 2.8em;
+	font-size: 2.5em;
 }
 
 #phflag {
@@ -63,8 +61,8 @@ html {
 }
 
 #me {
-	height: 200px;
-	width: 215px;
+	height: 190px;
+	width: 205px;
 	border-radius: 50%; /*makes the photo round*/
 	margin-top: 30px;
 	margin-bottom: 30px;
